@@ -61,7 +61,7 @@ class StoryItem extends StatelessWidget {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 border: Border.all(color: Colors.white, width: 2.5),
-                color: Colors.blue,
+                color: Colors.white,
                 image: DecorationImage(
                   image: Image.network(_demoImageUrl).image,
                   fit: BoxFit.fill,
@@ -72,7 +72,7 @@ class StoryItem extends StatelessWidget {
         ),
         Padding(
           padding: EdgeInsets.only(top: 2.5),
-          child: Text("eut.d"),
+          child: Text("kdy.0215", style: TextStyle(fontSize: 12.0),),
         )
       ]
     );
